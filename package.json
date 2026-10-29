@@ -1,0 +1,6 @@
+{
+  "name": "leo-samuel-and-sons", "version": "1.0.0", "private": true,
+  "type": "module", "engines": { "node": ">=22" },
+  "scripts": { "build": "node scripts/build.mjs", "test": "node --test", "preview": "python3 -m http.server 4173 --directory dist" },
+  "dependencies": { "marked": "18.1.2", "yaml": "2.9.1" }
+}
