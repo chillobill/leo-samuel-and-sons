@@ -20,4 +20,8 @@ The completed conversion includes basement lining as part of the damp-proofing w
 
 What was once a kitchen is now a dedicated space for relaxing and movie nights, making the most of the home’s existing footprint.
 
-![Completed basement cinema room with a corner sofa, wall-mounted screen and linear lighting](/assets/images/basement.jpeg)
+![Another photo](/assets/images/Elkstone-Basement-scaled.jpg
+
+And here is some more waffle about the basement and some additional photos
+
+![And another](/assets/images/011.jpg
