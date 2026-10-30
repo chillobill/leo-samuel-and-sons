@@ -3,7 +3,7 @@ title: "Basement Conversion Marsden"
 date: "2026-10-29"
 summary: "Conversion of a basement into a lounge and cinema room"
 category: "Project update"
-image: "public/assets/images/basement.jpeg"
+image: "assets/images/basement.jpeg"
 image_alt: "Architectural illustration — replace with a real project photograph"
 draft: true
 ---
@@ -22,4 +22,4 @@ The completed conversion includes basement lining as part of the damp-proofing w
 
 What was once a kitchen is now a dedicated space for relaxing and movie nights, making the most of the home’s existing footprint.
 
-![Basement](public/assets/images/basement.jpeg)
+![Basement](assets/images/basement.jpeg)
