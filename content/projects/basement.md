@@ -3,23 +3,21 @@ title: "Basement Conversion Marsden"
 date: "2026-10-29"
 summary: "Conversion of a basement into a lounge and cinema room"
 category: "Project update"
-image: "public/assets/images/basement.jpeg"
-image_alt: "Architectural illustration — replace with a real project photograph"
-draft: true
+image: "/assets/images/basement.jpeg"
+image_alt: "Completed basement cinema room with a corner sofa, wall-mounted screen and linear lighting"
+draft: false
 ---
 
 ## The project
 
-We’re transforming the basement of a terraced house in Marsden into a cosy snug and cinema room.
+We’ve transformed the basement of a terraced house in Marsden from a former kitchen into a cosy snug and cinema room.
 
-Previously used as the kitchen, the space is taking on a new purpose now that the client has moved their kitchen upstairs. The aim is to create a comfortable room to relax, settle down with a film and make better use of the lower ground floor.
+With the client’s kitchen relocated upstairs, the project gave the lower ground floor a new purpose: a comfortable space to unwind and enjoy a film.
 
-Progress so far
-
-## The Results
+## The results
 
 The completed conversion includes basement lining as part of the damp-proofing works, alongside the electrical and plumbing works needed for the room’s new use.
 
 What was once a kitchen is now a dedicated space for relaxing and movie nights, making the most of the home’s existing footprint.
 
-![Basement](public/assets/images/basement.jpeg)
+![Completed basement cinema room with a corner sofa, wall-mounted screen and linear lighting](/assets/images/basement.jpeg)
