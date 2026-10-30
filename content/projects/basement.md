@@ -3,7 +3,7 @@ title: "Basement Conversion Marsden"
 date: "2026-10-29"
 summary: "Conversion of a basement into a lounge and cinema room"
 category: "Project update"
-image: "assets/images/basement.jpeg"
+image: "/assets/images/basement.jpeg"
 image_alt: "Completed basement cinema room with a corner sofa, wall-mounted screen and linear lighting"
 draft: false
 ---
