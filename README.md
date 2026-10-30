@@ -12,7 +12,7 @@ A responsive website for a building business in Holmfirth, West Yorkshire. Proje
 6. In a repository ruleset for `main`, require pull requests and the **Validate and build** status check. This is what enforces PR-only updates; the workflow alone cannot prohibit direct pushes. Enable the rule after the first passing build, using the exact check name GitHub shows. If your plan does not support the rule, follow the PR process by convention.
 7. Restrict the `github-pages` environment to `main` under repository deployment protection rules.
 
-The initial site has a deliberately empty journal and no invented projects, reviews, accreditations, phone number or email. The hero artwork is an original architectural illustration, explicitly labelled as such. Confirm business copy before launch. Add the correct business contact and any required company disclosures before public launch.
+The initial site has a deliberately empty journal and no invented projects, reviews, accreditations, phone number or email. The homepage hero image is `public/assets/images/holmfirth-house.png`; it is separate from the project journal. Confirm business copy before launch. Add the correct business contact and any required company disclosures before public launch.
 
 ## Add a project using a pull request
 
@@ -84,7 +84,7 @@ The build validates required front matter, dates, image existence and local imag
 ## Files
 
 - `content/projects/*.md`: project journals.
-- `public/assets/images/`: photographs and original starter illustration.
+- `public/assets/images/`: photographs and the homepage hero image.
 - `public/assets/style.css`: responsive design.
 - `scripts/build.mjs`: static HTML renderer.
 - `.github/workflows/pages.yml`: PR validation and publishing.
