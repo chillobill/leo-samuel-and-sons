@@ -1,7 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {mkdtemp,readFile,writeFile,rm,cp} from 'node:fs/promises';
-import {tmpdir} from 'node:os';
+import {mkdtemp,readFile,writeFile,rm,cp,mkdir} from 'node:fs/promises';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
@@ -10,7 +9,8 @@ const root=fileURLToPath(new URL('../',import.meta.url));
 async function fixture(fn) {
  const dir=await mkdtemp(path.join(root,'.test-'));
  try {for(const entry of ['scripts','public','site.json']) await cp(path.join(root,entry),path.join(dir,entry),{recursive:true});
- await cp(path.join(root,'content'),path.join(dir,'content'),{recursive:true});
+ // Use only fixture posts; real content is validated by the production build.
+ await mkdir(path.join(dir,'content/projects'),{recursive:true});
  await fn(dir);
  } finally {await rm(dir,{recursive:true,force:true});}
 }
@@ -36,6 +36,7 @@ test('invalid dates and unsafe links fail the PR build',async()=>fixture(async d
  await writeFile(p,source('','[Click](javascript:alert%281%29)'));assert.throws(()=>build(dir),/Unsupported link/);
 }));
 test('drafts are excluded and an empty journal renders successfully',async()=>fixture(async dir=>{
+ await writeFile(path.join(dir,'content/projects/draft-project.md'),source().replace('draft: false','draft: true').replace('A project & its progress','Your project title'));
  build(dir);const index=await readFile(path.join(dir,'dist/index.html'),'utf8');
  assert.match(index,/UPDATES COMING SOON/);assert.doesNotMatch(index,/Your project title/);
 }));
