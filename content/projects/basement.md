@@ -3,10 +3,13 @@ title: "Basement Conversion Marsden"
 date: "2026-10-29"
 summary: "Conversion of a basement into a lounge and cinema room"
 category: "Project update"
-image: "/assets/images/basement.jpeg"
-image_alt: "Completed basement cinema room with a corner sofa, wall-mounted screen and linear lighting"
+image: "/assets/images/ai/basement-lounge-cinema.webp"
+image_alt: "AI-generated basement cinema lounge with an oatmeal corner sofa and wall-mounted television"
+image_caption: "AI-generated illustration — not a photograph of the Marsden project."
 draft: false
 ---
+
+> **About the images:** The images on this page are AI-generated examples of basement lounges. They illustrate the type of space described and are not photographs of this completed project.
 
 ## The project
 
@@ -20,8 +23,6 @@ The completed conversion includes basement lining as part of the damp-proofing w
 
 What was once a kitchen is now a dedicated space for relaxing and movie nights, making the most of the home’s existing footprint.
 
-![Another photo](/assets/images/Elkstone-Basement-scaled.jpg)
+![AI-generated illustration of a basement snug with an olive sofa and warm lighting](/assets/images/ai/basement-lounge-snug.webp)
 
-And here is some more waffle about the basement and some additional photos
-
-![And another](/assets/images/011.jpg)
+*AI-generated illustration, not a photograph of this project.*
