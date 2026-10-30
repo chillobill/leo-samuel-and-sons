@@ -3,7 +3,7 @@ title: "Basement Conversion Marsden"
 date: "2026-10-29"
 summary: "Conversion of a basement into a lounge and cinema room"
 category: "Project update"
-image: "assets/images/basement.jpeg"
+image: "/assets/images/basement.jpeg"
 image_alt: "Completed basement cinema room with a corner sofa, wall-mounted screen and linear lighting"
 draft: false
 ---
@@ -20,8 +20,8 @@ The completed conversion includes basement lining as part of the damp-proofing w
 
 What was once a kitchen is now a dedicated space for relaxing and movie nights, making the most of the home’s existing footprint.
 
-![Another photo](assets/images/Elkstone-Basement-scaled.jpg
+![Another photo](/assets/images/Elkstone-Basement-scaled.jpg)
 
 And here is some more waffle about the basement and some additional photos
 
-![And another](assets/images/011.jpg
+![And another](/assets/images/011.jpg)
